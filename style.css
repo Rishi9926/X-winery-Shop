@@ -1,0 +1,911 @@
+@font-face {
+    font-family: rishi;
+    src: url(./Playball-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+.header{
+    width: 100%;
+   min-height: 100vh;
+    background-color: aqua;
+    text-align: center;
+    position: relative;
+    /* background-image: url("https://www.healthifyme.com/blog/wp-content/uploads/2022/01/shutterstock_548516968-1-1024x683.jpg"); */
+    background-image: url("https://mybartender.com/wp-content/uploads/2023/06/best-sweet-red-wine.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    /* background-position: center; */
+ 
+}
+.header .q{
+    width: 80px;
+    margin-top: 20px;
+}
+.header h1{
+    padding-top: 14%;
+    color: #fff;
+    font-size: 50px;
+    font-family: "rishi";
+
+}
+.header button{
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 17px;
+    color: #fff;
+    background-color: #582335 ;
+    border: none;
+}
+.header button:hover{
+    color: #000;
+    background-color: #fff;
+    scale: 1.1;
+    transition: ease all 0.5s;
+}
+/* ...............................nav */
+nav{
+    width: 100%;
+    height: 13vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    top: 30%;
+}
+nav .right img{
+    width: 60px;
+}
+ .left a{
+   margin: 0 10px; 
+   text-decoration: none;
+   color: white;
+   color: #000;
+   padding: 18px 18px;
+}
+ a:hover{
+    color: white;
+   background-color: #582335;
+  
+}
+#b{
+    color: white;
+   background-color: #582335;
+   padding: 18px 18px;
+}
+/* ............................................................................section */
+section{
+    width: 100%;
+   min-height: 90vh;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+section .left{
+    width: 60%;
+    height: 90vh;
+    /* background-color: blue; */
+    text-align: center;
+
+}
+.left h1{
+    font-size: 50px;
+    padding-top: 14%;
+    color: #582335;
+    font-family: rishi;
+}
+.left p{
+    font-size: 20px;
+    padding-top: 8%;
+    line-height: -1px;
+
+}
+.left button{
+    margin-top: 8%;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #582335;
+    border: none;
+    font-size: 17px;
+}
+
+
+section .right{
+    width: 40%;
+    height: 90vh;
+    /* background-color:olive; */
+    text-align: center;
+}
+section .right img{
+    width: 490px;
+    margin-top: 15%;
+    
+
+}
+/* .............................................................section sweet */
+ .sweet{
+    width: 100%;
+    min-height: 100vh;
+    background-color: brown;
+    background-image: url("https://www.eatthis.com/wp-content/uploads/sites/4/2019/05/black-woman-drinking-red-wine.jpg?quality=82&strip=1&w=970");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+ .sweet h1{
+    text-align: center;
+    padding-top:  45vh;
+    font-size: 8vh;
+    color: #fff;
+}
+.sweet span{
+    color: #582335;
+    font-family: rishi;
+    font-size: 15vh;
+}
+/* ............................................................................ */
+ .qq{
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+    
+}
+.qq h1{
+  text-align: center;  
+  font-size: 4vw;
+  padding-top: 10vh;
+  color: #582335;
+  font-family: rishi;
+}
+.center {
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.box{
+    width: 270px;
+    height: 330px;
+    background-color:#582335 ;
+    border-radius: 10px;
+}
+.box .box1 {
+    width: 260px;
+    height: 250px;
+    /* background-color:aqua ; */
+    margin: 5px 5px;
+    overflow: hidden;
+}
+.box1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+.box h2{
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+}
+.qq .mid{
+    width: 180px;
+    height: 50px;
+    background-color: #582335;
+    margin: 15vh 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 10px;
+}
+.qq .mid:hover{
+    scale: 1.1;
+    transition: ease all 0.5s;
+    cursor: pointer;
+}
+.mid i {
+    color: rgba(245, 245, 245, 0.549);
+    font-size: 20px;
+}
+.mid h2 {
+    color: rgba(245, 245, 245, 0.86);
+    font-size: 20px;
+
+} 
+/* ............................................section qq */
+ .five{
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: burlywood; */
+    display: flex;
+}
+.five .mid-left{
+    width: 50%;
+    height: 100vh;
+    /* background-color: cyan; */
+}
+.mid-left img{
+    width: 100%;
+    height: 100%;
+}
+
+.five .mid-right{
+    width: 50%;
+    height: 100vh;
+    background-color: whitesmoke;
+    text-align: left;
+    padding-left: 45px;
+} 
+
+.mid-right h1{
+   font-size: 45px;
+   padding-top: 70px;
+   font-family: rishi;
+   color: #582335;
+
+}
+
+.mid-right p {
+    font-size: 24px;
+    /* margin: 20px; */
+    padding-top: 20px;
+    line-height: -10px;
+    color: rgba(0, 0, 0, 0.609);
+}
+.mid-right .icon{
+    margin-top: 70px;
+}
+
+.mid-right i{
+    background-color: transparent;
+    border: 1px solid black;
+    color: #582335;
+    font-size: 30px;
+    padding: 10px 10px;
+    margin: 10px;
+    border-radius: 50px;
+    scale: 1;
+    transition: ease all 1s;
+}
+.mid-right .icon  i:hover{
+    background-color: #582335;
+    scale:1.5;
+    transition: ease all 0.5s;
+    cursor: pointer;
+   color: white;
+   border: none;
+
+}
+.mid-right .l1{
+    width: 170px;
+    height: 50px;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    background-color: #582335;
+    gap: 5px;
+    border-radius: 10px;
+}
+.mid-right .l1:hover{
+    scale: 1.1;
+    transition: ease all 0.5s;
+    cursor: pointer;
+}
+
+.mid-right .l1 i{
+    color: rgba(245, 245, 245, 0.715);
+    border: none;
+}
+.l1 h2{
+    color: rgba(255, 255, 255, 0.916);
+    font-size: 20px;
+}
+
+/* ...........................................................................six section */
+
+.six{
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: burlywood; */
+    display: flex;
+}
+.six .mid-left{
+    width: 50%;
+    height: 100vh;
+    background-color: whitesmoke;
+    padding-left: 45px;
+}
+.mid-left h1{
+    font-size: 50px;
+    padding-top: 90px ;
+    font-family: "rishi";
+    color: #582335;
+    font-weight: 900;
+}
+.mid-left p{
+    font-size: 24px;
+    padding-top: 50px;
+    line-height: -10px;
+    color: rgba(0, 0, 0, 0.609);
+
+}
+.mid-left .cen{
+    width: 200px;
+    height: 50px;
+    background-color: #582335;
+    margin-top:  90px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0px 25px;
+    color: #fff;
+    border-radius: 8px;
+}
+.mid-left .cen i {
+    font-size: 20px;
+    color: #bdb8b8;
+
+}
+.mid-left .cen h2{
+    font-weight: 400;
+}
+.mid-left .cen:hover{
+    scale: 1.1;
+    transition: ease all 0.5s;
+}
+
+.six .mid-right {
+    width: 50%;
+    height: 100vh;
+    background-color: #582335;
+}
+.mid-right img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+/* ....................................................................seven */
+.seven{
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: chartreuse; */
+    display: flex;
+}
+.seven .min-left{
+    width: 50%;
+    height: 100vh;
+    /* background-color: chocolate; */
+}
+.min-left img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.seven .min-right{
+    width: 50%;
+    height: 100vh;
+    background-color: whitesmoke;
+    padding-left: 45px;
+}
+.min-right h1{
+    font-size: 50px;
+    font-family: rishi;
+    color: #582335;
+    padding-top: 90px;
+}
+.min-right p{
+    font-size: 24px;
+    padding-top: 50px;
+    line-height: -10px;
+    color: rgba(0, 0, 0, 0.609);
+
+}
+.min-right .m1{
+    width: 240px;
+    height: 50px;
+    background-color: #582335;
+    margin-top:  90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 10px;
+    /* color: #fff; */
+}
+.m1 i{
+    color: #bfbaba;
+    font-size: 20px;
+}
+.m1 h2{
+    color: #e9e3e3;
+    font-size: 20px;
+}
+.min-right .m1:hover{
+    scale: 1.1;
+    transition: ease all 0.5s;
+}
+
+/* ................................................................................ */
+
+.eight{
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: aqua; */
+    /* text-align: center; */
+    
+}
+.eight img{
+    margin-left: 23vh;
+}
+.eight h1{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 90px;
+    font-family: rishi;
+    color: #582335;
+    font-weight: 900;
+}
+
+.eight .p1{
+    width: 180px;
+    height: 50px;
+    background-color: #582335;
+    margin: 10vh 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 10px;
+
+}
+.p1 h2{
+    color: #dbd6d6;
+    font-size: 20px;
+}
+.p1 i{
+    font-size: 20px;
+    color: #938b8b;
+}
+footer{
+    width: 100%;
+    min-height: 80vh;
+    background-color: #582335;
+    text-align: center;
+
+}
+footer img{
+    margin-top: 40px;
+}
+
+footer .p2{
+    margin-top: 40px;
+    
+}
+.p2 h3{
+   text-transform: lowercase;
+   color: #ffffffd4;
+   font-size: 20px;
+   font-weight: 400;
+}
+footer .p3{
+    margin-top: 70px;
+}
+.p3 i {
+    font-size: 20px;
+    background-color:#582335;
+    padding: 10px ;
+    border-radius: 50%;
+    margin: 10px;
+    border: 1px solid white;
+    color: #fff;
+}
+.p3 i:hover{
+    background-color: white;
+    color: #582335;
+    scale: 1.5;
+  cursor: pointer;
+
+}
+/* ...................................................responsive */
+
+@media (max-width:600px) {
+     
+
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+
+}
+.header{
+    text-align: center;
+    position: relative;
+    overflow-x: hidden;
+ 
+}
+.header .q{
+    width: 100px;
+    margin-top: 70%;
+}
+.header h1{
+    padding-top: 14%;
+    color: #fff;
+    font-size: 40px;
+    margin-top: 30px;
+    font-family: "rishi";
+
+}
+.header button{
+    margin-top: 30px;
+    padding: 15px 30px;
+    font-size: 20px;
+}
+
+/* ...............................nav */
+nav{
+    justify-content: start;
+    top: 0%;
+    padding: 0px 6px;
+}
+nav .left{
+    margin-left: 30px;
+}
+nav .right img{
+    width: 30px;
+}
+ .left a{
+   margin: 0 1px; 
+   text-decoration: none;
+   color: white;
+   color: #000;
+   padding: 1px 1px;
+   /* margin-left: 5px; */
+}
+ 
+#b{
+    color: white;
+   background-color: #582335;
+   padding: 1px 1px;
+}
+/* ............................................................................section */
+section{
+   min-height: 50vh;
+   display: inline-block;
+    /* background-color: blueviolet; */
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section .left{
+    width: 100%;
+    height: 50vh;
+    /* background-color: blue; */
+    text-align: center;
+
+}
+.left h1{
+    font-size: 40px;
+    padding-top: 10%;
+    color: #582335;
+    font-family: rishi;
+    text-align: center;
+}
+.left p{
+    font-size: 15px;
+    padding-top: 8%;
+    line-height: -1px;
+    text-align: center;
+
+}
+.left button{
+    margin-top: 10%;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #582335;
+    border: none;
+    font-size: 17px;
+}
+
+
+section .right{
+    width: 100%;
+    height: 50vh;
+    /* background-color:olive; */
+    text-align: center;
+}
+section .right img{
+    width: 390px;
+    margin-top: 5%;
+    
+
+}
+/* .............................................................section sweet */
+ .sweet{
+    width: 100%;
+    min-height: 100vh;
+    background-color: brown;
+    background-image: url("https://www.eatthis.com/wp-content/uploads/sites/4/2019/05/black-woman-drinking-red-wine.jpg?quality=82&strip=1&w=970");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    text-align: center;
+}
+ .sweet h1{
+    text-align: center;
+    padding-top:  45vh;
+    font-size: 6vh;
+    color: #fff;
+}
+.sweet span{
+    color: #582335;
+    font-family: rishi;
+    font-size: 13vh;
+}
+/* ............................................................................ */
+ .qq{
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+    
+}
+.qq h1{
+  text-align: center;  
+  font-size: 8vw;
+  padding-top: 10vh;
+  color: #582335;
+  font-family: rishi;
+}
+.center {
+    display: flex;
+    margin-top: 30px;
+    gap: 10px;
+    flex-direction: column;
+}
+.box{
+    width: 270px;
+    height: 330px;
+    background-color:#582335 ;
+    border-radius: 10px;
+}
+.box .box1 {
+    width: 260px;
+    height: 250px;
+    /* background-color:aqua ; */
+    margin: 5px 5px;
+    overflow: hidden;
+}
+.box1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+.box h2{
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+}
+.qq .mid{
+    width: 100px;
+    height: 50px;
+    background-color: #582335;
+    margin: 6vh 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 10px;
+}
+.qq .mid:hover{
+    scale: 1.1;
+    transition: ease all 0.5s;
+    cursor: pointer;
+}
+.mid i {
+    color: rgba(245, 245, 245, 0.549);
+    font-size: 10px;
+}
+.mid h2 {
+    color: rgba(245, 245, 245, 0.86);
+    font-size: 10px;
+
+} 
+/* ............................................section qq */
+ .five{
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: burlywood; */
+    display: flex;
+    flex-direction: column;
+}
+.five .mid-left{
+    width: 100%;
+    height: 100vh;
+    /* background-color: cyan; */
+}
+.mid-left img{
+    width: 100%;
+    height: 100%;
+}
+
+.five .mid-right{
+    width: 100%;
+    height: 100vh;
+    background-color: whitesmoke;
+    text-align: left;
+    padding-left: 0px;
+    text-align: center;
+} 
+
+.mid-right h1{
+   font-size: 45px;
+   padding-top: 70px;
+   font-family: rishi;
+   color: #582335;
+
+}
+
+.mid-right p {
+    font-size: 24px;
+    /* margin: 20px; */
+    padding-top: 20px;
+    line-height: -10px;
+    color: rgba(0, 0, 0, 0.609);
+}
+.mid-right .icon{
+    margin-top: 70px;
+}
+
+.mid-right .l1{
+    margin-left: 90px;
+    margin-top: 80px;
+}
+
+/* ...........................................................................six section */
+
+.six{
+    flex-direction: column;
+}
+.six .mid-left{
+    width: 100%;
+    padding-left: 0px;
+    text-align: center;
+}
+.mid-left h1{
+    font-size: 50px;
+}
+.mid-left p{
+    font-size: 24px;
+    padding-top: 50px;
+    line-height: -10px;
+    color: rgba(0, 0, 0, 0.609);
+
+}
+.mid-left .cen{
+    padding: 0px 0px;
+    margin-left: 80px;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+
+.six .mid-right {
+    width: 100%;
+    height: 100vh;
+    background-color: #582335;
+}
+
+/* ....................................................................seven */
+.seven{
+    flex-direction: column;
+}
+.seven .min-left{
+    width: 100%;
+}
+
+
+.seven .min-right{
+    width: 100%;
+    padding-left:0px;
+    text-align: center;
+}
+
+
+.min-right .m1{
+    margin-left: 80px;
+}
+
+
+/* ................................................................................ */
+
+.eight{
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: aqua; */
+    /* text-align: center; */
+    
+}
+.eight img{
+    margin-left: 0vh;
+}
+.eight h1{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 90px;
+    font-family: rishi;
+    color: #582335;
+    font-weight: 900;
+}
+
+.eight .p1{
+    width: 180px;
+    height: 50px;
+    background-color: #582335;
+
+    margin: 5vh 13vh;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 10px;
+    border-radius: 10px;
+
+}
+.eight img{
+    width: 350px;
+    height: 300px;
+    margin-left: 2px;
+}
+
+
+footer{
+    text-align: center;
+
+}
+footer img{
+    margin-top: 40px;
+}
+
+footer .p2{
+    margin-top: 40px;
+    
+}
+.p2 h3{
+   text-transform: lowercase;
+   color: #ffffffd4;
+   font-size: 20px;
+   font-weight: 400;
+}
+footer .p3{
+    margin-top: 70px;
+}
+.p3 i {
+    font-size: 20px;
+    background-color:#582335;
+    padding: 10px ;
+    border-radius: 50%;
+    margin: 10px;
+    border: 1px solid white;
+    color: #fff;
+}
+
+}
+ 
+
